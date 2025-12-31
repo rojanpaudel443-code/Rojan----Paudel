@@ -1,0 +1,41 @@
+.section {
+    padding: 60px 40px;
+    text-align: center;
+     background: linear-gradient(to right, #7b6c7b, #393e46);
+}
+
+.section h1 {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.gray {
+    background: #035370;
+}
+.section h4{
+    color: rgb(7, 181, 230);
+}
+/* Portfolio */
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    height: 150px;
+    background: #393e46;
+    color: white;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
