@@ -1,0 +1,75 @@
+/* Gallery Page Styling */
+.gallery-section {
+  padding: 20px;
+   background: linear-gradient(to right, #660393, #393e46);
+    color: white;
+    height: 90vh;
+}
+
+.gallery-section h1 {
+  text-align: center;
+  color: #1877f2;
+}
+
+.gallery-section h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Image container */
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Images */
+.gallery-images img {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  transition: transform 0.3s;
+}
+
+/* Hover effect */
+.gallery-images img:hover {
+  transform: scale(1.05);
+  border-color: #1877f2;
+}
+header {
+    background: #111;
+    padding: 15px 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #267c91;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #968a0a;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ab1700;
+}
+

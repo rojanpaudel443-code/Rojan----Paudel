@@ -1,7 +1,7 @@
 .section {
     padding: 60px 40px;
     text-align: center;
-     background: linear-gradient(to right, #7b6c7b, #393e46);
+     background: linear-gradient(to right, #7b6c7b, #086c93);
 }
 
 .section h1 {
@@ -9,11 +9,11 @@
     color: rgb(255, 255, 255);
 }
 
-.gray {
+body {
     background: #035370;
 }
 .section h4{
-    color: rgb(7, 181, 230);
+    color: rgb(17, 168, 155);
 }
 /* Portfolio */
 .portfolio-container {
@@ -41,4 +41,38 @@ footer {
 }
 p{
     color: gray;
+}
+header {
+    background: #111;
+    padding: 15px 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #267c91;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #968a0a;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ab1700;
 }

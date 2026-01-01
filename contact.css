@@ -23,6 +23,45 @@ footer {
     text-align: center;
     padding: 15px;
 }
-.h3{
+h3{
   text-align: center;
+  color: #232222;
+}
+h2{
+  text-align: center;
+  color: #880404;
+}
+header {
+    background: #111;
+    padding: 15px 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #267c91;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #968a0a;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ab1700;
 }
